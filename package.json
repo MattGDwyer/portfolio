@@ -1,0 +1,26 @@
+{
+  "name": "portfolio-page",
+  "version": "1.0.0",
+  "main": "index.html",
+  "engines": {
+    "node": "12.x"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MattGDwyer/portfolio-freecodecamp.git"
+  },
+  "keywords": [],
+  "author": "matt dwyer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MattGDwyer/portfolio-freecodecamp/issues"
+  },
+  "homepage": "https://github.com/MattGDwyer/portfolio-freecodecamp",
+  "description": "my portfolio",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
