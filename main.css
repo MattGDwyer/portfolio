@@ -1,49 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Prompt:wght@300&family=Roboto:wght@100;300;400;500;900&family=Warnes&display=swap');
 
-* {
-  margin: 0;
-  padding: 0;
-}
-
-*,
-*::before,
-*::after {
-  box-sizing: inherit;
- }
-
- html, body {
-  height: 100%;
-  width: 100%;
-}
 
 html {
-  box-sizing: border-box;
   scroll-behavior: smooth;
 }
 
 body {
   font-family: 'Roboto', sans-serif;
-  font-size: 2rem;
-  /* background: repeating-linear-gradient(0deg, transparent , black 1px, black 6px 100%); */
-  /* background-size: 100% 3px, 5px 100vw; */
-  height: 100%;
-  width: 100vw;
-  color: black !important;
-
+  font-size: 1rem;
 }
 
-
+/*** BEGIN SPLASH STYLING ***/
+.splash {
+  min-height: 120vh;
+}
 
 /*** BEGIN NAV STYLING ***/
 nav {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: 0;
-  font-size: 8rem;
+
+  font-size: 6rem;
   font-weight: 400;
-  color: black !important;
 }
 
 .slide-left {
@@ -85,10 +61,6 @@ nav {
   }
 }
 
-ul {
-  list-style-type: none;
-}
-
 li {
   width: min-content;
   color: black;
@@ -106,29 +78,11 @@ li:hover {
 a {
   color:inherit;
   margin: 0;
-  text-decoration: none;
 }
 /*** END NAV STYLING ***/
 
-
-
-.wrapper {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-  gap: 0px 0px;
-  pointer-events: auto;
-}
-
 /*** BEGIN WELCOME SECTION STYLING ***/
 #welcome-section {
-  grid-area: 1 / 1 / 3 / 5;
-  height: inherit;
-  width: 100vw;
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
-  margin: 0 auto;
   overflow: hidden;
   letter-spacing: .2em;
   background-color: white;
@@ -145,7 +99,7 @@ a {
   padding-left: 8px;
   position: fixed;
   top: 0;
-  left: 95%;
+  left: 95vw;
   right: 0;
   z-index: 0;
   text-align: center;
@@ -169,10 +123,7 @@ a {
   z-index: 0;
 }
 .picture {
-  width: auto;
-  height: 95vh;
-  margin-top: 5vh;
-  margin-left: 25vw;
+
 }
 /*** END WELCOME SECTION STYLING ***/
 
@@ -266,7 +217,6 @@ h3 {
   /* -webkit-filter: grayscale(0);
   Filter: grayscale(0); */
 }
-/*** END WELCOME SECTION STYLING ***/
 
 #log {
   grid-area: 5 / 1 / 7 / 5;
@@ -541,7 +491,7 @@ footer {
   color: white;
 }
 
-@media only screen and (orientation: portrait) {
+/* @media only screen and (orientation: portrait) {
   body, html {
     margin: 0;
     padding: 0;
@@ -566,6 +516,6 @@ footer {
     width: 100vw;
     /* background-size: cover; */
     background-position: center;
-  }
+  } */
 
 }
