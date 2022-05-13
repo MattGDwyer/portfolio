@@ -20,23 +20,37 @@
     <main>
       <!-- BEGIN SPLASH -->
       <div class="container-fluid">
-          <div class="row splash">
+        <!-- change splash row to nav row
+        add another row around image
+      add navbar elements
+      add a container that makes it full screen -->
+          <div class="row nav-container">
             <!-- NAV -->
-            <div class="col-lg-3 order-sm-2">
-              <nav id="navbar">
-                <ul class="list-unstyled">
-                  <li class="slide-down"><a class="nav-link" href="index.html">Go</a></li>
-                  <li class="slide-left"><a class="nav-link" href="#projects">Work</a></li>
-                  <li class="slide-right"><a class="nav-link" href="#log">About</a></li>
-                  <li class="slide-left"><a class="nav-link" href="#skillset">Skillset</a></li>
-                  <li class="slide-up"><a class="nav-link" href="#contact">Contact</a></li>
-                </ul>
+
+            <div class="col-lg-3">
+              <nav class="navbar navbar-light fixed-top bg-transparent" id="navbar">
+                <div class="container-fluid">
+                  <button class="navbar-toggle navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"
+                  style="color:#d83600;"
+                  >MD</button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mb-2 mb-lg-0 list-unstyled">
+                      <li class="nav-item slide-down"><a class="nav-link" href="index.html">Go</a></li>
+                      <li class="slide-left"><a class="nav-link" href="#projects">Work</a></li>
+                      <li class="slide-right"><a class="nav-link" href="#log">About</a></li>
+                      <li class="slide-left"><a class="nav-link" href="#skillset">Skillset</a></li>
+                      <li class="slide-up"><a class="nav-link" href="#contact">Contact</a></li>
+                    </ul>
+                </div>
               </nav>
+            </div>
           </div>
+          <!-- END NAV -->
+
+
           <!-- PIC -->
-          <div class="col-lg-9 order-sm-1">
+          <div class="col-lg-12 splash">
             <div class="picture">
-              <span class="my-name"><a href="index.html">MD</a></span>
           <ul class="contact-top" >
             <li><a class="nav-link" id="profile-link" href="https://github.com/MattGDwyer" target="_blank">gitHub</a></li>
             <li><a class="nav-link" id="profile-link" href="https://www.linkedin.com/in/matthew-dwyer-5289a119b/" target="_blank">linkedIn</a></li>

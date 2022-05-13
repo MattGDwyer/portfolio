@@ -16,6 +16,10 @@ body {
 }
 
 /*** BEGIN NAV STYLING ***/
+.nav-container {
+
+}
+
 nav {
 
   font-size: 6rem;
