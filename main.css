@@ -12,18 +12,14 @@ body {
 
 /*** BEGIN SPLASH STYLING ***/
 .splash {
-  min-height: 120vh;
+  /* min-height: 120vh; */
 }
 
 /*** BEGIN NAV STYLING ***/
-.nav-container {
-
-}
-
 nav {
-
-  font-size: 6rem;
+  margin-left: 90vw;
   font-weight: 400;
+  font-size: 4rem;
 }
 
 .slide-left {
@@ -79,10 +75,10 @@ li:hover {
   text-decoration: underline;
 }
 
-a {
+/* a {
   color:inherit;
   margin: 0;
-}
+} */
 /*** END NAV STYLING ***/
 
 /*** BEGIN WELCOME SECTION STYLING ***/
@@ -97,23 +93,6 @@ a {
   to {background-color: white;}
 }
 
-.my-name {
-  height: 4vh;
-  width: 4vw;
-  padding-left: 8px;
-  position: fixed;
-  top: 0;
-  left: 95vw;
-  right: 0;
-  z-index: 0;
-  text-align: center;
-  font-size: 1.25rem;
-  color: white;
-  background-color: #CC2936;
-  animation: 2s slide-down 1s forwards;
-  transform: translateY(-100%);
-  border-radius: 0  0 15px 15px;
-}
 
 .contact-top {
   display: inline-flex;
@@ -127,7 +106,7 @@ a {
   z-index: 0;
 }
 .picture {
-
+  /* max-height: 120vh; */
 }
 /*** END WELCOME SECTION STYLING ***/
 
